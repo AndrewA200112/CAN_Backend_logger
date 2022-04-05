@@ -1,0 +1,38 @@
+VERSION "HIPBNYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY/4/%%%/4/'%**4YYY///"
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+
+BS_:
+
+BU_:
+
+
+BO_ 86 VoltCurr: 8 Vector__XXX
+ SG_ VoltageSig : 31|16@0+ (0.0048832,0) [0|100] "Volts" Vector__XXX
+ SG_ CurrenSig : 15|16@0+ (0.01119,-366.674) [0|0] "A" Vector__XXX
+
+
+CM_ BO_ 86 "Voltage/current  of the Toshiba Battery ";
+CM_ SG_ 86 VoltageSig "Values of the Voltage ";
+CM_ SG_ 86 CurrenSig "Ampere of Current";
