@@ -1,6 +1,8 @@
 # CAN_Backend_logger Guide
 
-## PRECURSOR:
+## Precursor:
+This application serves to provide insight on a useful data visualization tool to model Battery Data Logged Over the CAN data bus that includes power, voltage,current,,temperature, and individual cell readings. This Project was worked on by Andrew Abrego and Chris Garner at Amazon Robotics during Spring 2022
+
 Run each of these lines in the AWS EC2 Server in to uplaod to your respective S3 server. it shouldbe noted that this lines of code are specific to our
 application of this implementation
 
@@ -10,13 +12,15 @@ Username:AndrewA200112
 
 PERMAKEY:[KEY] Ask Andrew abrego or Chris gardner
 
-## LOG INTO THE DASHBOARD
-EMAIL: ProteusDataViewer@gmail.com
-PASSWORD: Amazon123??
+## Log Into Dashboard
+Below are the login credientials to view the server from an external account. 
+* Dashboard Link: https://aabrego2001.grafana.net/goto/wEbRMoUnz?orgId=1
+* Email: ProteusDataViewer@gmail.com
+* Password: Amazon123??
 
-URL: https://aabrego2001.grafana.net/goto/wEbRMoUnz?orgId=1
 
-It may take refreshing the page a couple of times in order to display the data properly
+### Data not Displaying?
+It may take refreshing the page a couple of times in order to display the data properly. Typically it may take around 4 refreshes for the data to be displayed on the dashboard. The refresh button can be found in the top right corner of the dashboard link.
 
 ## Code for EC2 Server
 
